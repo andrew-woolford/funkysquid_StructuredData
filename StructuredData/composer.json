@@ -1,0 +1,19 @@
+{
+  "name": "funkysquid/module-structureddata",
+  "description": "Injects JSON-LD structured data for product, CMS, and Magefan Blog pages",
+  "require": {
+    "php": ">=7.4",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "FunkySquid\\StructuredData\\": ""
+    }
+  }
+}
